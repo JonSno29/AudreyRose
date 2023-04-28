@@ -608,6 +608,7 @@ body {
   --------------------------------------------------------------*/
   .clients {
     padding-top: 20px;
+   
     
   }
   
@@ -632,7 +633,7 @@ body {
   }
   
   .clients .swiper-pagination {
-    margin-top: 20px;
+    margin-top: 50px;
     position: relative;
     
   }
@@ -646,7 +647,7 @@ body {
   }
   
   .clients .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #040404;
+    background-color: #3eb0f7;
   }
   
   /*--------------------------------------------------------------
@@ -695,18 +696,18 @@ body {
   /*--------------------------------------------------------------
   # Services
   --------------------------------------------------------------*/
-  .services .icon-box {
-    text-align: center;
+  .services .icon-box-3 {
+    background-image: url("../img/AudreyJess.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
     border: 1px solid #4bd9f9;
+    text-align: center;
     padding: 80px 20px;
     transition: all ease-in-out 0.3s;
-    background: rgb(251, 251, 254);
-    border-radius: 10px;
+    color: #f8fafa;
     margin-bottom: 20px;
-    color:rgba(249, 246, 246, 0.9);
-    background: url("../img/AudreyJess.jpg") top center;
-    background-size: cover;
-    min-height: 350px;
+    font-weight: 700px;
   }
   
  .services .icon-box-1 {
@@ -751,6 +752,7 @@ body {
     transform: translateY(-10px);
     font-weight: 700;
   }
+
   
   .services .icon-box .icon i {
     color: #f4ecec;
@@ -965,10 +967,10 @@ body {
     padding-top: 40px;
    
   }
-  .Portfolio .column {
+  .portfolio .column {
     flex: 31%;
-    max-width: 31%;
-    padding: 0 4px;
+    max-width: 51%;
+    padding: 0 1px;
 }
   
   .portfolio-details .portfolio-details-slider img {
@@ -979,7 +981,7 @@ body {
   }
   
   .portfolio-details .portfolio-details-slider .swiper-pagination {
-    margin-top: 20px;
+    margin-top: 10px;
     position: relative;
   }
   
