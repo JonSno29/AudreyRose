@@ -37,7 +37,7 @@ body {
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: #f34510;
+    background: #f568ee;
     width: 40px;
     height: 40px;
     border-radius: 4px;
@@ -432,7 +432,7 @@ body {
   
   #hero:before {
     content: "";
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(250, 186, 237, 0.6);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -1135,7 +1135,7 @@ body {
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgba(68, 67, 67, 0.7);
+    background: rgba(248, 177, 231, 0.7);
   }
   
   .testimonials .section-header {
